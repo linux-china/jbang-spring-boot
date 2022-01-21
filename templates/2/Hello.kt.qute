@@ -1,0 +1,27 @@
+///usr/bin/env jbang "$0" "$@" ; exit $?
+//JAVA 17
+//KOTLIN 1.6.10
+//DEPS org.springframework.boot:spring-boot-dependencies:2.6.3@pom
+//DEPS org.springframework.boot:spring-boot-starter-webflux
+//DEPS org.jetbrains.kotlinx:kotlinx-coroutines-reactor
+//DEPS com.fasterxml.jackson.module:jackson-module-kotlin
+
+package demo
+
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RestController
+
+@SpringBootApplication
+@RestController
+open class {baseName} {
+    @GetMapping("/")
+    suspend fun hello(): String {
+        return "Hello Spring Boot"
+    }
+}
+
+fun main(args: Array<String>) {
+    runApplication<{baseName}>(*args)
+}
