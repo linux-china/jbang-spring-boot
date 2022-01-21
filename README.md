@@ -1,11 +1,9 @@
 JBang with Spring Boot
 ===================================
 
-# JBang Templates
+Please install [JBang](https://www.jbang.dev/download/) first :)
 
-```
-$ jbang trust add https://github.com/linux-china/jbang-spring-boot
-```
+# JBang Templates
 
 ### Spring Boot with Java
 
