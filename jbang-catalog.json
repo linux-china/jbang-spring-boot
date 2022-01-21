@@ -1,0 +1,30 @@
+{
+  "aliases": {
+  },
+  "templates": {
+    "SpringBoot2": {
+      "file-refs": {
+        "src/demo/{basename}.java": "templates/2/Hello.java.qute"
+      },
+      "description": "Spring Boot 2 App"
+    },
+    "SpringBoot3": {
+      "file-refs": {
+        "src/demo/{basename}.java": "templates/3/Hello.java.qute"
+      },
+      "description": "Spring Boot 3 App"
+    },
+    "SpringBoot2Kt": {
+      "file-refs": {
+        "src/demo/{basename}.kt": "templates/2/Hello.kt.qute"
+      },
+      "description": "Spring Boot 2 App"
+    },
+    "SpringBoot3Kt": {
+      "file-refs": {
+        "src/demo/{basename}.kt": "templates/3/Hello.kt.qute"
+      },
+      "description": "Spring Boot 3 App"
+    }
+  }
+}
