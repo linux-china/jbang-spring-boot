@@ -1,7 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 17
 //REPOS mavencentral,spring-milestone=https://repo.spring.io/libs-milestone
-//DEPS org.springframework.boot:spring-boot-dependencies:3.0.0-M1@pom
+//DEPS org.springframework.boot:spring-boot-dependencies:3.0.0-M2@pom
 //DEPS org.springframework.boot:spring-boot-starter-webflux
 
 package demo;

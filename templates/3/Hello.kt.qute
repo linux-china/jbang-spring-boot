@@ -2,7 +2,7 @@
 //JAVA 17
 //KOTLIN 1.6.10
 //REPOS mavencentral,spring-milestone=https://repo.spring.io/libs-milestone
-//DEPS org.springframework.boot:spring-boot-dependencies:3.0.0-M1@pom
+//DEPS org.springframework.boot:spring-boot-dependencies:3.0.0-M2@pom
 //DEPS org.springframework.boot:spring-boot-starter-webflux
 //DEPS org.jetbrains.kotlinx:kotlinx-coroutines-reactor
 //DEPS com.fasterxml.jackson.module:jackson-module-kotlin
