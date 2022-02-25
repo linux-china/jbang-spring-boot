@@ -1,7 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 17
 //KOTLIN 1.6.10
-//DEPS org.springframework.boot:spring-boot-dependencies:2.6.3@pom
+//DEPS org.springframework.boot:spring-boot-dependencies:2.6.4@pom
 //DEPS org.springframework.boot:spring-boot-starter-webflux
 //DEPS org.jetbrains.kotlinx:kotlinx-coroutines-reactor
 //DEPS com.fasterxml.jackson.module:jackson-module-kotlin
